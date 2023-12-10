@@ -41,7 +41,7 @@ export const works = [
     languages: ["React", "HTML", "CSS"],
     description:
       "This is a my personal portfolio. It is developed with React framework.",
-    link: "https://github.com/OzgeCetin43/CabHUB_Responsive_Design",
+    link: "https://github.com/OzgeCetin43/Portfolio",
     key: "react",
   },
 ];
