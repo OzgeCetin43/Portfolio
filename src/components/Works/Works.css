@@ -1,0 +1,212 @@
+.works-container {
+  margin: 5rem 1rem;
+}
+
+.works-title {
+  color: #fff;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.works-title span {
+  color: #7eeeeb;
+}
+
+.works-container-content {
+  padding: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.work-container-left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.work-type-button {
+  background-color: #24252e;
+  border: 1px solid #3f3f4666;
+  padding: 1rem 2rem;
+  width: 50%;
+  color: #fff;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.work-type-button:hover {
+  opacity: 1;
+}
+
+.work-type-button.active {
+  font-weight: bolder;
+  border: 1px solid #7eeeeb;
+  scale: 1.05;
+  opacity: 1;
+}
+
+.work-type-button span {
+  color: #7eeeeb;
+}
+
+.work-container-right {
+  width: 70%;
+}
+
+.work-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.work-item,
+.work-item-comming-soon {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #3f3f4666;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+.work-item:hover,
+.work-item-comming-soon:hover {
+  border: 1px solid #7eeeeb;
+}
+
+.work-item-image,
+.work-item-comming-soon-image {
+  width: 100%;
+  height: 250px;
+}
+
+.work-item-name,
+.work-item-comming-soon-name {
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.work-item-name span,
+.work-item-comming-soon-name span {
+  color: #7eeeeb;
+}
+
+.work-item-description,
+.work-item-comming-soon-description {
+  color: #fff;
+  font-size: 0.9rem;
+  height: 100px;
+  line-height: 1.5;
+}
+
+.work-language-container,
+.work-language-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.work-item-github-link svg {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+}
+
+.work-item-language-used {
+  background-color: #7eeeeb;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  color: #0b030e;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-left: 1rem;
+}
+
+.work-language-used:hover {
+  background-color: #fff;
+}
+
+.work-item-comming-soon-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.work-item-comming-soon-image,
+.work-item-comming-soon-description {
+  background-color: #3f3f4666;
+  margin: 1rem 0;
+}
+
+.work-item-comming-soon-github-link,
+.work-item-comming-soon-language-used {
+  background-color: #3f3f4666;
+  width: 100px;
+  height: 50px;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 920px) {
+  .works-container {
+    margin: 2rem auto;
+    width: 95%;
+  }
+
+  .works-container-content {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .work-container-left {
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+    padding: 1rem 0;
+  }
+
+  .work-type-button {
+    padding: 0.85rem;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  .work-container-right {
+    width: 100%;
+  }
+
+  .work-item,
+  .work-item-comming-soon {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .work-item-image {
+    height: auto;
+  }
+
+  .work-item-description {
+    height: auto;
+  }
+
+  .work-coming-soon {
+    font-size: 1rem;
+  }
+}
