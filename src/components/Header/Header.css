@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 920px) {
+  .header {
+    position: relative;
+  }
+
   .navigation {
     position: fixed;
     top: -100vh;
